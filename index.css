@@ -40,20 +40,11 @@ nav {
 .logo-icon {
     width: 40px;
     height: 40px;
-    background: linear-gradient(135deg, #0052FF, #00D9FF);
+    background: url('Numerion-logo-t.png');
     border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    background-position: center;
+    background-size: cover;
     position: relative;
-}
-.logo-icon::before {
-    content: '';
-    width: 30px;
-    height: 30px;
-    border: 2px solid #00D9FF;
-    border-radius: 50%;
-    position: absolute;
 }
 .nav-links {
     display: flex;
@@ -135,7 +126,9 @@ nav {
     width: 180px;
     height: 180px;
     margin: 0 auto 2rem;
-    background: linear-gradient(135deg, #0052FF 0%, #001a4d 100%);
+    background: url('Numerion-logo-t.png');
+    background-position: center;
+    background-size: cover;
     border-radius: 50%;
     display: flex;
     align-items: center;
@@ -151,7 +144,6 @@ nav {
     content: '';
     width: 140px;
     height: 140px;
-    border: 3px solid #00D9FF;
     border-radius: 50%;
     position: absolute;
 }
@@ -159,7 +151,6 @@ nav {
     content: '';
     width: 160px;
     height: 40px;
-    border: 3px solid #0052FF;
     border-radius: 50%;
     position: absolute;
     opacity: 0.7;
