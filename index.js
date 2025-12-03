@@ -21,9 +21,5 @@ const observer = new IntersectionObserver((entries) => {
     });
 }, observerOptions);
 document.querySelectorAll('.fade-in').forEach(el => observer.observe(el));
-// Form submission (placeholder)
-document.querySelector('.contact-form').addEventListener('submit', (e) => {
-    e.preventDefault();
-    alert('Merci pour votre message ! Nous vous répondrons très bientôt.');
-    e.target.reset();
-});
+// Form submission - Netlify gère automatiquement
+// Pas besoin de JavaScript ici !
